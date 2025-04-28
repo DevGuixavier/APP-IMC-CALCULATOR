@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IMC Calculator</string>
+    <string name="preencha_campos">Por favor, preencha todos os campos!</string>
+    <string name="valores_invalidos">Valores inválidos, tente novamente!</string>
+    <string name="resultado_imc">Seu IMC é: %1$s - Resultado: %2$s</string>
+    <string name="hint_peso">Peso (kg)</string>
+    <string name="hint_altura">Altura (m)</string>
+    <string name="botao_calcular">Calcular IMC</string>
+    <string name="resultado">Resultado</string>
+</resources>

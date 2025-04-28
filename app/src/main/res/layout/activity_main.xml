@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_abstrato"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <EditText
+        android:id="@+id/edit_peso"
+        style="@style/CustomEditText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:autofillHints="weight"
+        android:hint="@string/hint_peso"
+        android:inputType="numberDecimal"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/edit_altura"
+        style="@style/CustomEditText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="height"
+        android:hint="@string/hint_altura"
+        android:inputType="numberDecimal"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/botao_calcular"
+        style="@style/CustomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="@string/botao_calcular"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/text_resultado"
+        style="@style/CustomTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="@string/resultado"
+        android:maxLines="2"
+        android:ellipsize="end" />
+
+</LinearLayout>
